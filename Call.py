@@ -10,7 +10,7 @@ auth_token = 'bef67866c855430546f6a85f61294a83'
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
-                        twiml="<Response><Say>      hello Indhu kuka         how are you bandi            nanka</Say></Response>" ,
+                        twiml="<Response><Say>      hello Friend        how are you            good</Say></Response>" ,
                         to='+916303561878',
                         from_='+12058904813'
                     )
